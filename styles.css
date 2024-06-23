@@ -1,0 +1,39 @@
+.social-logo {
+    width: 2em;
+    height: 2em;
+    transition: transform 0.2s;
+}
+
+.social-logo:hover {
+    transform: scale(1.1); /* Optional: zoom effect on hover */
+}
+
+#social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80vw
+}
+
+#synopsis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
