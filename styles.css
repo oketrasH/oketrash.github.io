@@ -15,12 +15,14 @@
 }
 
 body {
+    overflow: hidden;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     height: 100vh;
     background-color: #f0f0f0;
+    font-family: "Playwrite NG Modern", cursive;
 }
 
 main {
@@ -37,3 +39,14 @@ main {
     align-items: center;
     flex-direction: column;
 }
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: white;
+    background-color: darkslategrey;
+    border-radius: 5px; /* Add small curve */
+}
+
